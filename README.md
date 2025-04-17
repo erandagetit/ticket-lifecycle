@@ -29,19 +29,34 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Lifecycle Stages</h2>
 
+1.) Create Tickets as End-Users
+Scenario 1: Create a ticket as an end-user with the following details:
+Subject: "Entire mobile/claim intake system is down"
+Details: Describe the issue briefly (e.g., "The entire claim intake system is down, preventing users from accessing their accounts.")   
+
 <p>
-<img src="https://i.imgur.com/Jv7smfr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Jdituyk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open tickets, who created the tickets, what level of SLA, and assigning the ticket.
+2.) Observe Ticket Properties as Help Desk Agent
+Log in as Help Desk Agent (john).
+Observe the ticket’s properties:
+Priority: Default value.
+Department: Default department.
+SLA: Default SLA.
+Assigned To: Not yet assigned.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/ayZ2I4x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vYqaIYF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XH2xWte.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Actually ticket, the issue, agent(myself) working the issue of the ticket.
+3.) Set Ticket Properties
+Update the ticket with the following properties:
+SLA: Sev-A (1 hour, 24/7).
+Assigned To: Claim Intake Team.
 </p>
 <br />
 
